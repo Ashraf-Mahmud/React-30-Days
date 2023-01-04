@@ -1,4 +1,7 @@
-1. Import Export(default and name) in ES6 and Module(multiple interconnected functionality)
+1. Import Export(default and name) in ES6 and Module(multiple interconnected functionality).
+ - We can use export keyword before function name or at the bottom of the code body.
+ -[export default Header & import func_name from "./path"] only 1 default export possible. Again, [export {Header} & import {Header} from "./path"].
+ - default comp name will be simple but other comp name will be in curly braces.
 2. Components(diffrent parts of js code with individual functionality)example: Header.js , Footer , content etc. 
  - Pros: if needed We can change only acctual component, no need to edit whole file. 
  - Component name must be capital case like Header.jsx 
@@ -9,10 +12,20 @@
 5. Single tag has to be closed with self closing tag.
 6. We can use direct JS literals(var,func, obj etc) in html with curly braces. ex: <p>{var_Name}<p/>.
 7. Component extension can be .js or .jsx . it's better to use jsx so that editor will understand its a react file.
+8. Small case tag name consider as it's own element by jsx but Capital case tag name use as component in jsx.
+9. Better to use component folder under src folder for better work.
+10. Better to use same name for comp[.jsx] and it's stylesheet[.css].
+11. [./inner/fileName] and [../outerFilename/fileName].
 
 
 
-
+CSS:
+1. if we import css in any js file and css used there, it will effect all of it's child comp[import child type file] also.
+2. [import "./cssfileName].
+3. style will override according to last css file.
+4. We can use inline css [style={{attribute:value,multiple css style}}]. Attribute has to be in camel case and will be in "value" if string.
+5. id can be use normally but className for class.
+6. We can also use tailwind or bootstrap with react by installing some pakages.
 
 
 
@@ -28,6 +41,8 @@ Code:
 1. arrow function: let func_name = () => {func body code and return() func/keyword}
 2. [export default func_name;] and [import func_name from "./path"]
 3. Path: [./current dir file] [../1 out dir file]
+4. component name use in single tag with capital latter.
+ - <Component/> can be use in render function as our wish to render in any position of browser body. 
 
 Shorcut command:
 1. after creating new components, use [rafce] for it's possible body code.
