@@ -1,2 +1,7 @@
-1. Import Export in ES6 and Module(multiple interconnected functionality)
-2. 
+1. Import Export(default and name) in ES6 and Module(multiple interconnected functionality)
+2. Components(diffrent parts of js code with individual functionality). 
+3. Single component render with wrapper tag (<> 1</> , <react.strictmode> 1<react.strictmode/>,<div> 1<div/><fragment> 1<fragment/>.
+4. JSX = ability to use normal html in JS file. We can use whole html functionality as JSX but it has to wrapped by 1 wrapper tag.
+  -class is a reserved keyword. So, in JSX we use ClassName with camelcase as html class attribute.
+5. Single tag has to be closed with self closing tag.
+6. We can use direct JS literals(var,func, obj etc) in html with curly braces. ex: <p>{var_Name}<p/>.
