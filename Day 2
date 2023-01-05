@@ -1,0 +1,8 @@
+1. Props: It's like an argument in function to initialize the function.
+ - Props handles outside the components where States handles inside the components.
+ - Props helps to use one comp multiple time. For exm: We can make 1 product comp and use multiple time by changing it's description/value.
+ - We use new comp by calling our prebuild 1 component in render func. Than we change comps value like [attributes:"value"] of html elements.
+ - We use [props] keyword at component function and it's inner body[by return keyfunc] we use [props.attrbute] for each new comp. Use it in curly braces.
+2. Best way to use props by using es6's destructuring method.
+ - After defining new descr/value in new comps in render func, we go back to our comp function.Now , trick is we already got ({props}) in our comp function argument.We jus need to use destructering method.
+ - To do that , just write new comps attrb/value with comma as arguments of our comp function like (name,desc, value). than in comp func's return method , we just use that destructed props in curly braces {name} instead of {props.name}.
