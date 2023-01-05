@@ -6,3 +6,22 @@
 2. Best way to use props by using es6's destructuring method.
  - After defining new descr/value in new comps in render func, we go back to our comp function.Now , trick is we already got ({props}) in our comp function argument.We jus need to use destructering method.
  - To do that , just write new comps attrb/value with comma as arguments of our comp function like (name,desc, value). than in comp func's return method , we just use that destructed props in curly braces {name} instead of {props.name}.
+3. In class comps under render function , we can destructer like [ const {name,descr} = this.props ] than use that destructered atrrb as usual.
+
+
+
+
+
+
+
+1. rafce= react arrow func export
+
+
+
+
+
+
+Trick:
+1. after defining comp and use it like tag with capital letter to import that comp> cursor goes from end of the comp and hit [ctrl+spcbr] for auto import.
+2. [rcc] snippet for creating class comp.
+3
